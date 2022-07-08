@@ -1,0 +1,29 @@
+<nav class="main-header navbar navbar-expand" id="navbar">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="<?= base_url(); ?>/index.php" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/logout" class="nav-link">Logout</a>
+        </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+                <i class="fas fa-expand-arrows-alt"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <div class="theme-switch-wrapper nav-link">
+                <label class="theme-switch" for="change-theme">
+                    <input type="checkbox" id="change-theme" name="checkbox" onclick="changeTheme()">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </li>
+    </ul>
+</nav>
